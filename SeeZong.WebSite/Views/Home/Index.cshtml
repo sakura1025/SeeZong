@@ -1,0 +1,389 @@
+﻿@{
+    ViewBag.Title = "首页";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<nav class="crumbs">文章排序：<a href="http://zmingcx.com" rel="nofollow" title="按日期排序"> 日期</a> <a href="http://zmingcx.com/?order=rand" rel="nofollow" title="随机排序">&gt; 随机</a> <a href="http://zmingcx.com/?order=commented" rel="nofollow" title="按评论多少排序">&gt; 评论</a> <a href="http://zmingcx.com/?order=views" rel="nofollow" title="按点击量排序">&gt; 点击</a></nav>
+<div id="primary" class="site-content">
+    <div id="sticky">
+        <article id="post-5924" class="post-5924 post type-post status-publish format-standard sticky hentry category-ality-original tag-ality tag-ality-original tag-wordpress tag-341 tag-617">
+            <div class="sticky-box" onmouseout="this.className='sticky-box'" onmouseover="this.className='sticky-box-m'">
+                <span class="sticky-ico">荐</span><div class="sticky-main">
+                    <header class="sticky-header">
+                        <div class="title-heavy"></div>
+                        <h2 class="entry-title"><a href="http://zmingcx.com/wordpress-theme-ality.html" rel="bookmark" title="详细阅读 WordPress 主题：Ality">WordPress 主题：Ality</a></h2>
+                    </header>
+                    <figure class="sticky-thumbnail">
+                        <a href="http://zmingcx.com/wordpress-theme-ality.html" rel="bookmark" title="WordPress 主题：Ality">
+                            <img class="home-thumb" src="http://zmingcx.com/wp-content/uploads/2014/07/ality.jpg" alt="WordPress 主题：Ality" />
+                        </a>
+                    </figure>
+                    <div class="sticky-entry">
+                        主题简介
+                        HTML5+CSS3响应式布局，适合不同分辨率设备浏览，集成多种流行元素，图标字体，Retina（视网膜）显示，兼容IE6+、 Firefox、Chrome、Opera、Safari等主流浏览器。
+                        WordPress 主题：Ality
+                        功能简介▼集...<div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article id="post-5758" class="post-5758 post type-post status-publish format-standard sticky hentry category-wordpress tag-functions-php tag-wordpress tag-wordpress-course tag-382">
+            <div class="sticky-box" onmouseout="this.className='sticky-box'" onmouseover="this.className='sticky-box-m'">
+                <span class="sticky-ico">荐</span><div class="sticky-main">
+                    <header class="sticky-header">
+                        <div class="title-heavy"></div>
+                        <h2 class="entry-title"><a href="http://zmingcx.com/wei-wordpress-wen-zhang-zi-dong-tian-jia-zi-ding-yi-lan-mu.html" rel="bookmark" title="详细阅读 为WordPress文章自动添加自定义栏目">为WordPress文章自动添加自定义栏目</a></h2>
+                    </header>
+                    <figure class="sticky-thumbnail">
+                        <a href="http://zmingcx.com/wei-wordpress-wen-zhang-zi-dong-tian-jia-zi-ding-yi-lan-mu.html" rel="bookmark" title="为WordPress文章自动添加自定义栏目">
+                            <img src="http://ww4.sinaimg.cn/mw690/703be3b1tw1ei8v2nl9uzj207s05kdft.jpg" alt="为WordPress文章自动添加自定义栏目" />
+                        </a>
+                    </figure>
+                    <div class="sticky-entry">
+                        自定义栏目是WordPress 一个非常强大的功能，借助它我们可以实现很多特殊的功能。本文的一段代码可以为文章自动添加预先设置好的自定义栏目名称及值，而无需手动添加。
+                        WordPress自定义栏目
+                        将下面的代码添加到当...<div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="clear"></div>
+    </div>
+    <div class="primary-site">
+
+        @for (int i = 0; i < 10; i++)
+        {
+            if (i == 1)
+            {
+                <div id="g-posts">
+                        <div class="g-posts-main g-main" style="text-align: center;">
+                            <a href="http://idc.wopus.org/" target="_blank">
+                                <img src="http://zmingcx.com/wp-content/themes/Ality/img/gg/760.png" alt="博客主机" />
+                            </a>
+                        </div>
+                    </div>
+            }
+            <article id="post-@i" class="post-@i post type-post status-publish format-standard hentry category-wpplugins tag-wpplugins tag-wordpress tag-wordpress-course">
+                <section class="content" onmouseout="this.className='content'" onmouseover="this.className='content-m'">
+                    <header class="entry-header">
+                        <div class="title-heavy"></div>
+                        <h2 class="entry-title"><a href="#" rel="bookmark" title="#">WordPress站内链接修改插件：Velvet Blues Update URLs</a></h2>
+                    </header>
+                    <div class="entry-content">
+                        <figure class="thumbnail">
+                            <a href="#" rel="bookmark" title="#">
+                                <img class="home-thumb" src="http://ww2.sinaimg.cn/mw690/703be3b1tw1emin7ebcmwj20go0bxmxt.jpg" alt="#" />
+                            </a>
+                        </figure>
+                        <div class="entry-site">
+                            WordPress文章和图片附件都是绝对路径，全部保存在数据库中。有朝一日，在更换网站域名之后，你会发现文章链接、图片全部失效了。那么如何将数据库中绝对路径更改为新的呢？
+                            WordPress
+                            方法一、导出数据库，并打开导出的sql文件，搜索旧域名并替换为新域名，这不是本文准备介绍的，也不是很适合新手。
+                            方法二、安装Wordpress站内链接修改插件：Velvet Blues Update URLs
+                            插件使用简单，后台----工具-----Up...<div class="clear"></div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="entry-meta">
+                            <span class="meta-site">
+                                <span class="date"><i class="icon-date"></i>2014年11月21日</span> <span class="cat"><i class="icon-cat"></i><a href="#" rel="category tag">plugins</a></span> <span class="comment"><i class="icon-comment"></i><a href="#comments" title="#">评论 34 条</a></span> <i class="icon-zan"></i>喜欢
+                                31 <span class="views"><i class="icon-views"></i>阅读 1,659 次</span>
+                            </span><span class="entry-more"><a href="@Url.Action("Article",new{id=1})" rel="bookmark" title="共 440字 阅读全文">阅读全文</a></span>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        }
+        <nav id="nav-below">
+            <div class="nav-next"></div>
+            <div class="nav-previous"><a href="http://zmingcx.com/page/2">下一页</a></div>
+        </nav>
+    </div>
+    <nav id="pagenavi"><span class='page-numbers current'>1</span><a class='page-numbers' href='http://zmingcx.com/page/2' title='第 2 页'>2</a><a class='page-numbers' href='http://zmingcx.com/page/3' title='第 3 页'>3</a><a class='page-numbers' href='http://zmingcx.com/page/4' title='第 4 页'>4</a><span class="pages">...</span><a class='page-numbers' href='http://zmingcx.com/page/42' title='最后一页'>42</a><a class='page-numbers' href='http://zmingcx.com/page/2' title='下页'>下页</a></nav>
+</div>
+<div id="sidebar" class="widget-area">
+    <aside id="hot_post-9" class="widget widget_hot_post">
+        <h3 class="widget-title">
+            <p><i class="icon-st"></i></p>
+            热门文章
+        </h3>
+        <div id="hot_post_widget">
+            <ul>
+                <li><span class='li-icon li-icon-1'>1</span><a href="http://zmingcx.com/ality-theme-0-32-released.html">Ality主题 0.32 版发布</a></li>
+                <li><span class='li-icon li-icon-2'>2</span><a href="http://zmingcx.com/replace-gravatar-server.html">替换Gravatar头像默认服务器</a></li>
+                <li><span class='li-icon li-icon-3'>3</span><a href="http://zmingcx.com/velvet-blues-update-urls.html">WordPress站内链接修改插件：Velve...</a></li>
+                <li><span class='li-icon li-icon-4'>4</span><a href="http://zmingcx.com/wordpress-4-1-beta.html">WordPress 4.1 Beta 1发布</a></li>
+                <li><span class='li-icon li-icon-5'>5</span><a href="http://zmingcx.com/shielding-wordpress-useless-items.html">屏蔽WordPress后台无用项</a></li>
+                <li><span class='li-icon li-icon-6'>6</span><a href="http://zmingcx.com/miley-cyrus-wrecking-ball.html">Miley Cyrus-Wrecking Ball</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </aside>
+    <aside id="hot_commend-4" class="widget widget_hot_commend">
+        <h3 class="widget-title">
+            <p><i class="icon-st"></i></p>
+            本站推荐
+        </h3>
+        <div id="hot" class="hot_commend">
+            <ul>
+                <li>
+                    <figure class="thumbnail">
+                        <a href="http://zmingcx.com/wordpress-theme-individuation.html" rel="bookmark" title="使用WordPress子主题保留个性化修改">
+                            <img src="http://ww3.sinaimg.cn/mw690/703be3b1tw1ei8ug2ihmdj207s05kq32.jpg" alt="使用WordPress子主题保留个性化修改" />
+                        </a>
+                    </figure>
+                    <div class="hot-title"><a href="http://zmingcx.com/wordpress-theme-individuation.html" rel="bookmark" title="使用WordPress子主题保留个性化修改">使用WordPress子主题保留个性化修改</a></div>
+                    <div class="views"><i class="icon-views"></i>阅读 1,893 次</div>
+                </li>
+                <li>
+                    <figure class="thumbnail">
+                        <a href="http://zmingcx.com/ality-themes-faq.html" rel="bookmark" title="Ality主题常见问题">
+                            <img class="home-thumb" src="http://zmingcx.com/wp-content/uploads/2014/11/faq1.jpg" alt="Ality主题常见问题" />
+                        </a>
+                    </figure>
+                    <div class="hot-title"><a href="http://zmingcx.com/ality-themes-faq.html" rel="bookmark" title="Ality主题常见问题">Ality主题常见问题</a></div>
+                    <div class="views"><i class="icon-views"></i>阅读 3,105 次</div>
+                </li>
+                <li>
+                    <figure class="thumbnail">
+                        <a href="http://zmingcx.com/wordpress-theme-ality.html" rel="bookmark" title="WordPress 主题：Ality">
+                            <img class="home-thumb" src="http://zmingcx.com/wp-content/uploads/2014/07/ality.jpg" alt="WordPress 主题：Ality" />
+                        </a>
+                    </figure>
+                    <div class="hot-title"><a href="http://zmingcx.com/wordpress-theme-ality.html" rel="bookmark" title="WordPress 主题：Ality">WordPress 主题：Ality</a></div>
+                    <div class="views"><i class="icon-views"></i>阅读 76,168 次</div>
+                </li>
+                <li>
+                    <figure class="thumbnail">
+                        <a href="http://zmingcx.com/replace-gravatar-server.html" rel="bookmark" title="替换Gravatar头像默认服务器">
+                            <img src="http://zmingcx.com/wp-content/uploads/2010/12/show01-1.jpg" alt="替换Gravatar头像默认服务器" />
+                        </a>
+                    </figure>
+                    <div class="hot-title"><a href="http://zmingcx.com/replace-gravatar-server.html" rel="bookmark" title="替换Gravatar头像默认服务器">替换Gravatar头像默认服务器</a></div>
+                    <div class="views"><i class="icon-views"></i>阅读 2,880 次</div>
+                </li>
+                <div class="clear"></div>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </aside>
+    <aside id="categories-8" class="widget widget_categories">
+        <h3 class="widget-title">
+            <p><i class="icon-st"></i></p>
+            分类目录
+        </h3>
+        <ul>
+            <li class="cat-item cat-item-725"><a href="http://zmingcx.com/category/original/ality-original">Ality主题</a></li>
+            <li class="cat-item cat-item-11"><a href="http://zmingcx.com/category/original/hotnewspor" title="HotNews主题相关的文章">HotNews主题</a></li>
+            <li class="cat-item cat-item-3"><a href="http://zmingcx.com/category/photoshop" title="photoshop">Photoshop</a></li>
+            <li class="cat-item cat-item-8"><a href="http://zmingcx.com/category/wpplugins" title="推荐功能不错的WP插件">plugins</a></li>
+            <li class="cat-item cat-item-7"><a href="http://zmingcx.com/category/wordpresstheme" title="Wordpress主题">Themes</a></li>
+            <li class="cat-item cat-item-5"><a href="http://zmingcx.com/category/webdesign" title="分享Web前端设计理念及技术">Web前端</a></li>
+            <li class="cat-item cat-item-6"><a href="http://zmingcx.com/category/wordpress" title="记录分享WP使用经验和技巧">Wordpress</a></li>
+            <li class="cat-item cat-item-10"><a href="http://zmingcx.com/category/original">原创主题</a></li>
+            <li class="cat-item cat-item-277"><a href="http://zmingcx.com/category/skill">实用技巧</a></li>
+            <li class="cat-item cat-item-9"><a href="http://zmingcx.com/category/utility-software" title="推荐一些实用工具软件">实用软件</a></li>
+            <li class="cat-item cat-item-658"><a href="http://zmingcx.com/category/digital">数码硬件</a></li>
+            <li class="cat-item cat-item-12"><a href="http://zmingcx.com/category/information" title="转载一些有价值的网文资讯">网文资讯</a></li>
+            <li class="cat-item cat-item-4"><a href="http://zmingcx.com/category/uidesign" title="搜刮来的设计资源">设计资源</a></li>
+            <li class="cat-item cat-item-1"><a href="http://zmingcx.com/category/gossip" title="一些闲言琐碎的东西">闲言碎语</a></li>
+        </ul>
+        <div class="clear"></div>
+    </aside>
+    <aside id="recent_comments-8" class="widget widget_recent_comments">
+        <h3 class="widget-title">
+            <p><i class="icon-st"></i></p>
+            近期评论
+        </h3>
+        <div id="message" class="message-widget">
+            <ul>
+                <li>
+                    <a href="http://zmingcx.com/suizhong-million-seaside-tourist-town-accommodation-only-anchor-bay-huen-crane-house.html#comment-52655" title="发表在 > 绥中县万家镇海滨旅游住宿欢迎到止锚湾萱鹤楼">
+                        <img alt='' src='http://zmingcx.com/wp-content/glc_cache/7f6628f36e753457e4c799c0034bb17c-64.jpg' class='avatar avatar-64 photo' height='64' width='64' />
+                        <span class="comment_author"><strong>水晶吊坠</strong></span> 流口水有木有
+                    </a>
+                </li>
+                <li>
+                    <a href="http://zmingcx.com/webpage-jump-code.html#comment-52654" title="发表在 > 网页跳转代码">
+                        <img alt='' src='http://zmingcx.com/wp-content/glc_cache/2ff15aa7c32dd618090b2ac78e0bb0e5-64.jpg' class='avatar avatar-64 photo' height='64' width='64' />
+                        <span class="comment_author"><strong>flash教程</strong></span> js的直接跳转，这样传递不了权重吧。
+                    </a>
+                </li>
+                <li>
+                    <a href="http://zmingcx.com/shielding-wordpress-useless-items.html#comment-52653" title="发表在 > 屏蔽WordPress后台无用项">
+                        <img alt='' src='http://zmingcx.com/wp-content/glc_cache/c829c324172ffef170fd8cbd591e4d55-64.jpg' class='avatar avatar-64 photo' height='64' width='64' />
+                        <span class="comment_author"><strong>韶华逝尽</strong></span> 鸟哥威武~
+                        <img src="http://zmingcx.com/wp-includes/images/smilies/icon_lol.gif" alt=":lol:" class="wp-smiley" />
+                    </a>
+                </li>
+                <li>
+                    <a href="http://zmingcx.com/webpage-jump-code.html#comment-52652" title="发表在 > 网页跳转代码">
+                        <img alt='' src='http://zmingcx.com/wp-content/glc_cache/4e2c68116eabdb86f150438f39b46040-64.jpg' class='avatar avatar-64 photo' height='64' width='64' />
+                        <span class="comment_author"><strong>购物生活好店品</strong></span> 这个看着还是比较实用的，特别是需要经常修改文章的童鞋。
+                    </a>
+                </li>
+                <li>
+                    <a href="http://zmingcx.com/webpage-jump-code.html#comment-52651" title="发表在 > 网页跳转代码">
+                        <img alt='' src='http://zmingcx.com/wp-content/glc_cache/f34e2fc1df3f7c2c1bf34c4c28a2ba58-64.jpg' class='avatar avatar-64 photo' height='64' width='64' />
+                        <span class="comment_author"><strong>萝卜头</strong></span> 鸟哥，又复活了，好久没看到你更新博客了。另ality有无新版啊，现在版本首页点击管理无法跳转到后台管理页面哦，期待中。。。。
+                    </a>
+                </li>
+                <li>
+                    <a href="http://zmingcx.com/shielding-wordpress-useless-items.html#comment-52650" title="发表在 > 屏蔽WordPress后台无用项">
+                        <img alt='' src='http://zmingcx.com/wp-content/glc_cache/377569148955a8efcc31b29fa5798894-64.jpg' class='avatar avatar-64 photo' height='64' width='64' />
+                        <span class="comment_author"><strong>凯凯</strong></span> 请问博主，后台【活动】这个模块如何屏蔽？
+                    </a>
+                </li>
+                <li>
+                    <a href="http://zmingcx.com/webpage-jump-code.html#comment-52649" title="发表在 > 网页跳转代码">
+                        <img alt='' src='http://zmingcx.com/wp-content/glc_cache/7b91bef2877884b418437c3f19a0430e-64.jpg' class='avatar avatar-64 photo' height='64' width='64' />
+                        <span class="comment_author"><strong>厦门微信营销</strong></span> 来支持博主！！
+                    </a>
+                </li>
+                <li>
+                    <a href="http://zmingcx.com/wordpress-theme-ality.html#comment-52648" title="发表在 > WordPress 主题：Ality">
+                        <img alt='' src='http://zmingcx.com/wp-content/glc_cache/d6c3971032f24dd1e1c81b023302e2bd-64.jpg' class='avatar avatar-64 photo' height='64' width='64' />
+                        <span class="comment_author"><strong>figo</strong></span> 推荐阅读小工具不显示，把文章设置置顶依旧不显示
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </aside>
+    <div class="sidebar-roll">
+        <aside id="search-7" class="widget widget_search">
+            <div id="searchbar">
+                <form method="get" id="searchform" action="http://zmingcx.com/">
+                    <div>
+                        <input type="text" value="" name="s" id="s" placeholder="输入搜索内容" required />
+                        <input type="submit" id="searchsubmit" value="搜索" />
+                    </div>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </aside>
+        <aside id="like_most-2" class="widget widget_like_most">
+            <h3 class="widget-title">
+                <p><i class="icon-st"></i></p>
+                大家喜欢
+            </h3>
+            <div id="like" class="like_most">
+                <ul>
+                    <li><a href="http://zmingcx.com/ality-theme-0-32-released.html" rel="bookmark" title="Ality主题 0.32 版发布"><i class="icon-li"></i>Ality主题 0.32 版发布</a></li>
+                    <li><a href="http://zmingcx.com/velvet-blues-update-urls.html" rel="bookmark" title="WordPress站内链接修改插件：Velvet Blues Update URLs"><i class="icon-li"></i>WordPress站内链接修改插件：Velvet Blues Update URLs</a></li>
+                    <li><a href="http://zmingcx.com/wordpress-4-1-beta.html" rel="bookmark" title="WordPress 4.1 Beta 1发布"><i class="icon-li"></i>WordPress 4.1 Beta 1发布</a></li>
+                    <li><a href="http://zmingcx.com/replace-gravatar-server.html" rel="bookmark" title="替换Gravatar头像默认服务器"><i class="icon-li"></i>替换Gravatar头像默认服务器</a></li>
+                    <li><a href="http://zmingcx.com/shielding-wordpress-useless-items.html" rel="bookmark" title="屏蔽WordPress后台无用项"><i class="icon-li"></i>屏蔽WordPress后台无用项</a></li>
+                    <div class="clear"></div>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </aside>
+        <aside id="text-20" class="widget widget_text">
+            <div class="textwidget">
+                <div class="ad">
+                    <div class="ads_c">
+                        <div class="droplist" id="lrtk">
+                            <dl>
+                                <dt>
+                                    <p>WordPress CMS主题：HotNews Pro Plus</p>
+                                </dt>
+                                <dd>
+                                    <a class="hot" href="http://zmingcx.com/wordpress-theme-hotnewspro.html" target="_blank" title="HotNews Pro Plus">
+                                        <img src="http://zmingcx.com/wp-content/uploads/2014/11/themead-1.jpg">
+                                    </a>
+                                </dd>
+                                <dt>
+                                    <p>WordPress 主题：Ality</p>
+                                </dt>
+                                <dd style="display: none">
+                                    <a class="hot" href="http://zmingcx.com/wordpress-theme-ality.html" target="_blank" title="WordPress 主题：Ality">
+                                        <img src="http://zmingcx.com/wp-content/uploads/2014/11/themead-2.jpg">
+                                    </a>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+                <script type="text/javascript">
+$.fn.extend({
+    adadvance: function () {
+        var listobj = this;
+        var objs = $('dt', this);
+        var view = objs.length - 1;
+        objs.each(function (i) {
+            $(this).mouseover(function () { $('dd', listobj).hide(); $('.droplist-hover', listobj).attr("class", ""); $("dd a").fadeIn(1000); $(this).children("p").attr("class", "droplist-hover"); $(this).next().show() })
+            if (i != view) {
+                $(this).next().hide();
+            }
+            else {
+                $(this).next().show();
+                $(this).children("p").attr("class", "droplist-hover");
+            }
+        });
+    }
+});</script>
+                <script type="text/javascript">$('#lrtk').adadvance();</script>
+            </div>
+            <div class="clear"></div>
+        </aside>
+    </div>
+</div>
+<div class="clear"></div>
+<div id="links">
+    <ul>
+        <li><a href="http://www.dntk.org/" title="电脑天空,收集OEM XP系统,WIN7系统,免费软件,破解软件,单机游戏,网游服务端,电脑知识">电脑天空</a></li>
+        <li><a href="http://chenxuehu.com/" title="陈学虎的小窝" target="_blank">陈学虎的小窝</a></li>
+        <li><a href="http://www.shenmet.net/" title="中铝沈加" target="_blank">shenmet</a></li>
+        <li><a href="http://reeoo.com/" target="_blank">网页设计</a></li>
+        <li><a href="http://www.bbpresschina.com/" title="bbpress中文" target="_blank">bbpress中文</a></li>
+        <li><a href="http://www.i7086.com/" target="_blank">七零八落</a></li>
+        <li><a href="http://www.ebtcn.net" title="Kam 的个人博客" target="_blank">Kam&#039;s Blog</a></li>
+        <li><a href="http://www.woniu778.com/" target="_blank">小蜗牛</a></li>
+        <li><a href="http://www.xuanhelou.com/">萱鹤楼</a></li>
+        <li><a href="http://www.52digital.com" title="我爱数码网" target="_blank">我爱数码网</a></li>
+        <li><a href="http://www.win7en.com/" title="网络动态、主题美化、升级指导、win7使用教程" target="_blank">win7en乐园</a></li>
+        <li><a href="http://www.goldendragonart.com/" title="金龙手工艺">金龙手工艺</a></li>
+        <li><a href="http://www.metals7.com/" title="宇航金属" target="_blank">宇航金属</a></li>
+        <li><a href="http://huli.it/" title="关注Web、Wordpress、Google、淘宝的生活博客">狐狸博客</a></li>
+        <li><a href="http://429006.com/" title="操作系统和网络技术研究" target="_blank">Pop&#039;s Blog</a></li>
+        <li><a href="http://www.t4x.org/">Byrd&#039;s Weblog</a></li>
+        <li><a href="http://www.yalanbooks.net/" title="黑摄会＂妖女＂" target="_blank">雅岚</a></li>
+        <li><a href="http://www.myscope.cn/" title="让所有温暖的文字都能够被聆听" target="_blank">蚂蚁视界</a></li>
+        <li><a href="http://scmbob.org/" title="扛一肩记忆——就算失望，不能" target="_blank">扛一肩记忆</a></li>
+        <li><a href="http://zmingcx.com/links" title="友情链接">更多链接</a></li>
+    </ul>
+    <div class="clear"></div>
+</div>
+@section footer{
+    <script type="text/javascript">
+                document.onkeydown = chang_page;
+                function chang_page(e) {
+                    var e = e || event,
+                    keycode = e.which || e.keyCode;
+                    if (keycode == 33 || keycode == 37)
+                        location = 'http://zmingcx.com/';
+                    if (keycode == 34 || keycode == 39)
+                        location = 'http://zmingcx.com/page/2';
+                }
+    </script>
+    <script type='text/javascript' src='http://zmingcx.com/wp-content/themes/Ality/js/jquery.sidr.min.js?ver=1.2.1'></script>
+    <script type='text/javascript' src='http://zmingcx.com/wp-content/themes/Ality/js/jquery.infinitescroll.min.js?ver=2.0.2'></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var infinite_scroll = {
+                loading: {
+                    img: "http://zmingcx.com/wp-content/themes/Ality/img/loading.gif",
+                    msgText: "",
+                    finishedMsg: "木有了！"
+                },
+                nextSelector: "#nav-below .nav-previous a",
+                navSelector: "#nav-below",
+                itemSelector: "article",
+                maxPage: "7",
+                contentSelector: ".primary-site"
+            };
+            $(infinite_scroll.contentSelector).infinitescroll(infinite_scroll);
+        });
+    </script>
+
+}
